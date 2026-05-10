@@ -140,3 +140,9 @@ body.dark .main-heading {
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
 }
+
+label, input{
+
+    display: block;
+    margin-bottom: 10px;
+}

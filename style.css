@@ -103,3 +103,40 @@ body.dark .main-heading {
 .navbar a:hover {
     color: aqua;
 }
+
+.form-container {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+.form-container label {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.form-container button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="aboutme.html">About</a>
+    <a href="form.html">Contact</a>
+</nav>
+
+    <div class="form-container">
+         <h1> Form </h1>
+         <form method ="post">
+            <label for="name">Name</label>
+            <input type="text" id="name"> <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email"> <br><br>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" maxlength="10"> <br><br>
+            <label for="city">City</label><br>
+            <select id="city">
+
+                <option value="">Select City</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="pune">Pune</option>
+                <option value="nagpur">Nagpur</option>
+            </select><br><br>
+            <label for="state">State</label><br>
+            <select id="state">
+                <option value="maharashtra">Maharashtra</option>
+                <option value="gujarat">Gujarat</option>
+                <option value="punjab">Punjab</option>
+            </select>
+            <label for="interest">Interested Field</label>
+            <input type="text" id="interest" placeholder="e.g.....ethical hacking, Web developer"><br><br>
+    
+            <button type="submit">Submit</button>
+
+         </form>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -18,7 +18,7 @@
 
     <div class="form-container">
          <h1> Form </h1>
-         <form method ="post">
+         <form method ="post" onsubmit="formSubmit(event)">
             <label for="name">Name</label>
             <input type="text" id="name"> <br><br>
             <label for="email">Email</label>
@@ -43,12 +43,15 @@
             <input type="text" id="interest" placeholder="e.g.....ethical hacking, Web developer"><br><br>
     
             <button type="submit">Submit</button>
+            <p id="success-msg" style="display:none; color:green; font-family:'Poppins',sans-serif;">
+    ✓ Form submitted successfully!
+</p>
 
          </form>
 
 
     </div>
-
+<script src="script.js"></script>
 </body>
 
 </html>

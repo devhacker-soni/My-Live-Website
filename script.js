@@ -11,3 +11,7 @@ function toggleMode() {
         btn.textContent = "🌙 Dark Mode";
     }
 }
+function formSubmit(event) {
+    event.preventDefault();
+    document.getElementById("success-msg").style.display = "block";
+}

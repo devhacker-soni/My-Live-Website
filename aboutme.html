@@ -1,49 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
 </head>
+
 <body>
     <nav class="navbar">
-    <a href="index.html">Home</a>
-    <a href="aboutme.html">About</a>
-    <a href="form.html">Contact</a>
-</nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About</a>
+        <a href="form.html">Contact</a>
+    </nav>
 
-    <h2 class="main-heading">
+    <h1 class="main-heading">
         SONI GOVIND SINGH
-    </h2>
+    </h1>
+    <div class="intro-box">
+        <p>
+            My name is Soni Singh.
+            I am currently pursuing Bsc IT And i have worked in Digitide as a Sales Executive.
+            Right now I have upgraded myself As a Full Stack developer.
+            And In future I will upgrade Myself As a Ethical Hacker.
+        </p>
+    </div>
+    <hr>
+    <h1 class="main-heading">
+        MY SKILLS
+    </h1>
+     <article class="intro-box">
+    <ul class="section-text">
+        <li> Microsoft Excel</li>
+        <li> Power Bi</li>
+        <li> HTML </li>
+        <li> CSS </li>
+        <li> JavaScript </li>
+        <li> English Communication </li>
+        <li> Analytical Thinking</li>
+        <li> Critical & Logical Thinking </li>
+        <li> Email Writing </li>
+        </ul>
+     </article>
+        <hr>
+        <h1 class="main-heading">MY LEARNING JOURNEY</h1>
+        <h2 class="section-heading">&bull; HARRY BHAI KI FIRST THIRTEEN VIDEOS SE SEEKHA :</h2>
+        <article class="intro-box">
+            <ul class="section-text">
+              <li>Basic HTML structure</li>
+              <li>ID, Classes, Entities & Codes</li>
+              <li>Core Web Vitals — LCP, CLS, FID</li>
+              <li>Inline vs Block elements</li>
+              <li>HTML files ko CSS, JS se kaise link karna hai</li>
+              <li>Git — git init, add, commit, push, .wq</li>
+              <li>Basic website banana — multi-page with navbar</li>
+              <li>Semantic tags — header,nav,footer,article</li>
+              <li>SEO best practices — meta description, title</li>
+              <li>Video, Image, Audio HTML mein use karna</li>
+              <li>&lt;ul&gt;,&lt;ol&gt;,&lt;li&gt;,&lt;pre&gt;,&lt;code&gt;,&lt;label&gt;,&lt;input&gt;</li>
+              <li>src, href kaise use karna hai</li>
+              <li>&lt;br&gt; ki jagah CSS se styling karna</li>
+              <li>Forms banana — name, email, phone, state, city</li>
+              <li>CLS fix kiya — aspect-ratio se</li>
+              <li>Prism.js se code embed karna</li>
+              <li>iFrames — YT videos aur websites embed karna</li>
+            </ul>
+        </article>
+             
+        <h2 class="section-heading">&bull; CLAUDE AI KA USE :</h2>
+        <article class="intro-box">
+            <ul class="section-text">
+                <li>AI ko assistant ki tarah use kiya — replacement nahi</li>
+                <li>Concepts better samajhne ke liye</li>
+                <li>Basic CSS se pehle hi website ki styling ki Claude ki help se</li>
+                <li>JS features add kiye — dark mode toggle, back to top, form success message</li>
+                <li>Copy paste nahi kiya — samjhke khud likha</li>
+                <li>Doubts real time mein clear kiye</li>
+            </ul>
+        </article>  
+        <hr>
+        <h1 class="main-heading">MY CODE</h1>
+        <h2 class="section-heading">&bull; HTML</h2>
+        <pre><code class="language-html">
+&lt;nav class="navbar"&gt;
+    &lt;a href="index.html">Home&lt;/a&gt;
+    &lt;a href="aboutme.html">About&lt;/a&gt;
+    &lt;a href="form.html">Contact&lt;/a&gt;
+&lt;/nav&gt;
+        </code></pre>
 
-    <p class="intro-box">
-        My name is Soni Singh. 
-        I am currently pursuing Bsc IT And i have worked in Digitide as a Sales Executive.
-        Right now I have upgraded myself As a Full Stack developer. 
-        And In future I will upgrade Myself As a Ethical Hacker.
-   </p>
-   <hr>
-   <h2 class="section-heading">
-    My Skills
-   </h2>
+        <h2 class="section-heading">&bull; CSS</h2>
+        <pre><code class="language-css">
 
-   <ul class="section-text">
-    <li> Microsoft Excel</li>
-    <li> Power Bi</li>
-    <li> HTML </li>
-    <li> CSS </li>
-    <li> JavaScript </li>
-    <li> English Communication </li>
-    <li> Analytical Thinking</li>
-    <li> Critical & Logical Thinking </li>
-    <li> Email Writing </li>
+body{
+    background-color: rgb(23, 86, 128);
+}
+
+.main-heading{
+    text-align: center;
+    color: aliceblue;
+}
+
+.hero-image{
+     width: 500px;
+     display: block;
+     margin: 0 auto;
+     aspect-ratio: 1.76;
+
+}
+
+.intro-box{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 60%;
+    font-family:'Poppins',sans-serif;
+
+}
+
+.section-heading{
+
+    color: white;
+    font-family: 'Playfair Display',serif;
+}
+
+.section-text{
+
+    color: black;
+    font-family: 'Poppins',sans-serif;
+}
+
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: rgb(150, 189, 189);
+    border: none;
+    border-radius: 5px;
+}
+
+.toggle-btn {
+    display: block;
+    margin:10px auto 10px 20px;  /* left side */
+    padding: 8px 20px;
+    cursor: pointer;
+    background: aqua;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body.dark {
+    background-color: #1c1e26;
+}
+
+body.dark .section-text {
+    color: aliceblue;
+}
+
+body.dark .section-heading {
+    color: white;
+}
+
+body.dark .intro-box {
+    background-color: #2b2b3e;
+    color: white;
+}
+
+body.dark .main-heading {
+    color: aliceblue;
+}
+
+.section-text li {
+    margin-bottom: 8px;
+    line-height: 1.7;
+}
+
+.navbar {
+    background-color: #062a45;
+    padding: 15px 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+.form-container {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+.form-container label {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.form-container button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+label, input{
+
+    display: block;
+    margin-bottom: 10px;
+}
+
+.media-video{
+
+    display: block;
+    width: 25%;
+    margin: 20px auto;
+    border-radius: 10px;
+    
+}
+
+.media-iframe{
+
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: none;
+    height: 550px;
+
+}
+
+.page-footer{
+
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    margin-top: 30px;
+    background-color: #062a45;
+
+}
+
+        </code></pre>
+
+        <h2 class="section-heading">&bull; JAVASCRIPT</h2>
+        <pre><code class="language-javascript">
+        function goToTop() {
+window.scrollTo({ top: 0, behavior: "smooth" });
+}
+function toggleMode() {
+document.body.classList.toggle("dark");
+
+let btn = document.querySelector(".toggle-btn");
+if (document.body.classList.contains("dark")) {
+    btn.textContent = "☀️ Light Mode";
+} else {
+    btn.textContent = "🌙 Dark Mode";
+}
+}
+function formSubmit(event) {
+event.preventDefault();
+document.getElementById("success-msg").style.display = "block";
+}
+</code></pre>
+ 
+       <footer class="page-footer">
+        <p>&copy;2025 Soni Singh | BSc IT Student | Aspiring Developer &amp; Ethical Hacker</p>
+       </footer>
+
+        
 
 
-   </ul>
- <button onclick="window.location.href='index.html'">Go Back</button>    
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
 </body>
+
 </html>

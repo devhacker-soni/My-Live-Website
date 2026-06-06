@@ -35,4 +35,4 @@ AI is not a replacement for humans — it is a tool to optimize and enhance your
 ## Author
 **Soni Singh**
 BSc IT Student | Aspiring Full Stack Developer & Ethical Hacker
-[GitHub](https://github.com/Soni0301) | [Live Website](https://Soni0301.github.io/My-Live-Website/)
+[GitHub](https://github.com/devhacker-soni) | [Live Website]( https://devhacker-soni.github.io/My-Live-Website/)
